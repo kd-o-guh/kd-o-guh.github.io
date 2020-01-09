@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif, Arial, Helvetica;
+}
+body{
+    height: 100%;
+}
+.about{
+    background-color: #5E318A;
+    min-height: 100vh;
+}
+.nav{
+    min-height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+.nav div:hover{
+    background-color: rgb(70, 35, 105);
+}
+.box{
+    margin: 10vh 15vh;
+    padding: 40px 40px;
+    border: 2px solid #FFF;
+    max-width: 80vh;
+    min-height: 65vh;
+    font-size: 35px;
+    color: #FFF;
+    font-weight: bold;
+}
+.about-image{
+    background-image: url('../images/IMG_20190907_195311.jpg');
+    background-size: cover;
+}
